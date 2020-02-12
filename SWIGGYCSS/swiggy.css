@@ -1,0 +1,384 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+#headerBlock{
+    height: 600px;
+}
+.leftheaderBlock{
+    width: 55%;
+    float: left;
+}
+.rightheaderBlock{
+    
+    width: 45.4%;
+    float: left;
+
+}
+.logo{
+    width: 30%;
+    float: left;
+    height: 70px;
+}
+.menu{
+    width: 70%;
+    float: right;
+    text-align: right;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 54px;
+}
+ul li{
+    display: inline-block;
+}
+#menuandlogo{
+    padding: 60px;
+}
+.logo svg{
+    fill:#fc8019;
+    width: 200px;
+    left: 0;
+    top: 0;
+
+
+}
+.menu ul li a{
+    color:#000;
+    padding: 17px;
+    text-decoration: none ;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    color: #fc8018;
+}
+.Signup{
+    background: #000;
+    padding: 11px 30px;
+    color:white !important;
+    font-size: 13.5px;
+
+}
+.Login{
+    background-color: white;
+    color: black;
+    font-size: 14.5px;
+    font-weight: bold;
+}
+.rightheaderBlock{
+    background-image: url("../IMAGE/Dinner1-new_s93yyf.jpg");
+    height: 600px;
+    position: absolute;
+    background-size: cover;
+    left: calc(50% + 68px);
+}
+#main_block, .footer_list{
+    padding: 20px 60px;
+}
+.head_title h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.content_para1 p{
+    font-size: 23px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+
+}
+.form_control{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-color:orange ;
+    border-style: solid;
+    
+}
+.form{
+    position: relative;
+}
+.btn{
+    position: absolute;
+    padding: 22px;
+    background:#fc8019;
+    color: white;
+    border: none;
+    right: 0;
+    top: 0;
+}
+.locateme{
+    position: absolute;
+    text-decoration: none;
+    font-size: small;
+    display: inline-block;
+    padding: 10px 15px;
+    right: 125px;
+    top: 11px;
+    font-weight: bolder;
+    border: none;
+    color: rgb(105, 105, 105);
+}
+.locateme:hover{
+    background-color: rgba(85, 85, 85, 0.185);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
+.footer_list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+.footer_list ul li{
+    display: inline-block;
+}
+.footer_list ul li a{
+    text-decoration: none;
+}
+.footer_list h3{
+    color: rgb(105, 105, 105);
+    font-size: 15px;
+    font-weight: 400;
+}
+.footer_list ul li a:nth-child(even){
+    color: rgb(63, 62, 62);
+}
+
+#middlesection{
+background: #2b1e16;
+padding: 0 20px;
+height: 350px;
+clear: both;
+justify-content: space-between
+}
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+
+.leftarea{
+    width: 30%;
+    float: left;
+}
+.middlearea{
+    width: 30%;
+    float: left;
+}
+.rightarea{
+    width: 30%;
+    float: left;
+}
+
+.contentarea{
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+
+}
+.comtentarea h1{
+    font-size: 10px;
+}
+.contentarea p{
+    font-size: 14px;
+}
+
+.contentarea img{
+    width: 105px;
+    height: 199px;
+}
+
+#lastsection{
+    clear: both;
+    
+}
+.restaurent_left{
+width: 45%;
+float: left;
+}
+.restaurent_right{
+    width: 55%;
+    float: left;
+}
+.restaurent_left section{
+    padding: 110px 80px;
+}
+.restaurent_left section h1{
+    font-size: 36px;
+    font-weight: 600;
+    padding: 0;
+    width: 60%;
+    margin: 20px 0px;
+}
+.restaurent_left section p{
+    font-size: 18px;
+    color: #999;
+    padding: 0px 0px 40px 0px;
+    margin: 0;
+}
+.restaurent_left section figure{
+    margin: 0;
+    display: inline-block;
+
+}
+.restaurent_left section figure img{
+    width: 180px;
+}
+.restaurent_right figure img{
+    width: 400px;
+
+}
+.restaurent_right figure{
+    width: 46%;
+    float: left;
+}
+.restaurent_right figure:nth-child(2){
+    padding-top: 70px;
+}
+.d_rQj{
+    padding: 0 20px;
+    background-color: #000;
+    min-height: 298px;
+    width: 100%;
+    color: #fff;
+    clear: both;
+}
+._25jJQ {
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 76px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+._2b6Ch {
+    position: fixed;
+    bottom: 0;
+    transform: translateY(100%);
+    width: 100%;
+    z-index: 9999;
+    opacity: 0;
+    transition: opacity .3s,transform .3s;
+    will-change: opacity,transform;
+    pointer-events: none;
+}
+._3arMG {
+    position: relative;
+    padding-top: 80px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 1240px;
+}
+._25jJQ {
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 76px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+._3ipKA {
+    display: flex;
+    height: 320px;
+    border-bottom: 1px solid #4d4d4d;
+    justify-content: space-between;
+}
+._3ipKA ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+._3ipKA ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+._2Im4A {
+    min-width: 300px;
+}
+._1Jvc1 {
+    width: 200px;
+}
+.RB8ET {
+    border-bottom: 1px solid #4d4d4d;
+    padding: 30px 0 40px;
+}
+.RB8ET li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+._2JILy, .b-Hy9 {
+    color: inherit;
+    font-size: 17px;
+    margin-top: 15px;
+}
+.RB8ET li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    line-height: 2.2;
+}
+.T_dbb {
+    color: gray;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+._1_sSy {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+._3zqGM {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    padding: 29px 0;
+}
+._26WmF {
+    fill: #fff;
+    width: 142px;
+}
+a, a:focus, a:hover, a:visited {
+    text-decoration: none;
+}
+._2BWW_ {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: -.6px;
+}
+._26WmF {
+    fill: #fff;
+    width: 142px;
+}
+._2BWW_ {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: -.6px;
+}
+._1Az3W {
+    margin-left: 30px;
+    display: inline-block;
+    transform: scaleX(1);
+    will-change: transform;
+    transition: transform .5s cubic-bezier(.215,.61,.355,1);
+}
+._3zqGM {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    padding: 29px 0;
+}
